@@ -12,3 +12,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.sideButton {
+  outline: none;
+  width: 100%;
+  background: transparent; 
+  height: 100vh; 
+  flex: 1;
+  border: 0; 
+  color: white;
+}
+
+.sideButton:hover {
+  cursor: pointer;
+  background: #485161; 
+}
+
+.flex-1{
+  flex: 1;
+}
